@@ -1,0 +1,15 @@
+server:
+  port: 50001
+spring:
+  application:
+    name: shuoguoyuan-user-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.25.150.50:8848
+      config:
+        server-addr: 120.25.150.50:8848
+        file-extension: yml
+  redis:
+    port: 6379
+    host: 120.25.150.50

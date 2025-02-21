@@ -1,0 +1,12 @@
+server:
+  port: 51801
+spring:
+  application:
+    name: shuoguoyuan-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 120.25.150.50:8848
+      config:
+        server-addr: 120.25.150.50:8848
+        file-extension: yml
