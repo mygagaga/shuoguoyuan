@@ -25,6 +25,7 @@ import java.util.*;
 @ConfigurationProperties(prefix = "aliyun")
 public class GreenTextScan {
 
+
     private String accessKeyId;
     private String secret;
 
